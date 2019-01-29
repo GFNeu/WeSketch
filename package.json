@@ -1,0 +1,13 @@
+{
+  "name": "World-Wide-Whiteboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.12.3"
+  }
+}
