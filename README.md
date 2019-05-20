@@ -1,4 +1,4 @@
-# World Wide WhiteBoard
+# WeSketch
 
 ## Introducción
 
@@ -6,7 +6,7 @@
 
 En este workshop, vamos a estar explorando conceptos y tecnologías realmente excitantes, incluendo el elemento `<canvas>` de HTML5, `EventEmmitter`s y, el mejor de todos, `socket.io`!
 
-Nuestra aplicación es llamada World Wide WhiteBoard - una pizarra blanca que podés dibujar con otras personas... en la Internet! Ahora, eso si que suena bien.
+Nuestra aplicación es llamada WeSketch Wide WhiteBoard - una pizarra blanca que podés dibujar con otras personas... en la Internet! Ahora, eso si que suena bien.
 
 Empecemos. 
 
@@ -14,7 +14,7 @@ Empecemos.
 
 ### Conseguí el Repo
 
-Forkeá/cloná el repo que se encuentra [aquí](//github.com/Plataforma5la/15_World_Wide_Whiteboard.git)! 
+Forkeá/cloná el repo que se encuentra [aquí](//github.com/Plataforma5la/15_WeSketch.git)! 
 
 
 Una vez que hayas clonado, haz `npm install` y corré `npm start` (o `node server.js`), si visitas [http://localhost:1337](http://localhost:1337), vas a ver una página mayormente blanca con algunos cuadrados de colores en el rincón.
@@ -294,7 +294,7 @@ io.sockets.on() ; //conexión incial de un cliente
 
 ### Escuchando de Otros Dibujos
 
-Confirmá que los otros clientes están recibiendo data cuando un cliente dibuja. Ahora usando esta data recibida del servidor, hagamos que el cliente "dibuje" en su propia pizarra usando la variable global `whiteboard`, por lo tanto completando nuestro asombroso World Wide WhiteBoard!
+Confirmá que los otros clientes están recibiendo data cuando un cliente dibuja. Ahora usando esta data recibida del servidor, hagamos que el cliente "dibuje" en su propia pizarra usando la variable global `whiteboard`, por lo tanto completando nuestro asombroso WeSketch!
 
 +++Dibujando en la pizarra
 Recordá, el objeto `window.whiteboard` tiene un método llamado draw!
