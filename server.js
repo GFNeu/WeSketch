@@ -1,6 +1,6 @@
 var path = require('path');
 var express = require('express');
-var app = express(); // the app returned by express() is a JavaScript Function. Not something we can pass to our sockets!
+var app = express();
 
 // app.listen() returns an http.Server object
 // http://expressjs.com/en/4x/api.html#app.listen
