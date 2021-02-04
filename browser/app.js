@@ -12,9 +12,6 @@ socket.on('cargarDibujos', function(dibujos){
 
 socket.on('connect', function () {
     console.log('Tengo hecho una conexión persistente bilateral al servidor!');
-    
-    
-
 });
 
 socket.on("desconectado", function(data){
